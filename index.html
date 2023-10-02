@@ -1,53 +1,64 @@
-
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jonan</title>
+    <title>Jonan Mesfin Stein</title>
     <style type="text/css">
-      body {
-        line-height: 1.6;
-        font-size: 18px;
-        padding: 0 10px;
-        margin: 60px auto;
-        max-width: 400px;
-      }
-      
-      h1 {
-        text-align: center;
-      }
-      
-      code {
-        font-size: 85%;
-      }
-      
-      p {
-        text-align: center;
-      }
-      
+        body {
+            line-height: 1.6;
+            font-size: 18px;
+            padding: 0 10px;
+            margin: 60px auto;
+            max-width: 400px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333; /* Dark gray text color */
+        }
+
+        p {
+            text-align: center;
+            margin: 10px 0; /* Add some spacing between paragraphs */
+        }
+
+        .links {
+            display: flex; /* Use flexbox to arrange links horizontally */
+            justify-content: center; /* Center links horizontally */
+        }
+
+        .links a {
+            margin: 10px; /* Add spacing between links */
+            text-align: center;
+            text-decoration: none; /* Remove underline */
+            color: #007bff; /* Blue link color */
+        }
+
+        .links a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+        .scaled-image {
+            max-width: 50%; /* Set the maximum width to 50% of its container */
+            object-fit: contain; /* Maintain aspect ratio and center the image */
+            display: block; /* Remove any extra spacing below the image */
+            margin: 0 auto; /* Center the image horizontally */
+        }
     </style>
-  <head>
-  <body>
+</head>
+<body>
     <header>
-      <h1>Jonan Mesfin Stein</h1>
+        <h1>Jonan Mesfin Stein</h1>
     </header>
-    <section>
-      <p>I do a lotta AWS + other Software 💸</p>
-      <br>
-      <ul>
-        <li>
-          <a href="https://www.upwork.com/freelancers/~01cd821641d835ec7b">Upwork</a>
-        </li>
-        <li>
-          <a href="https://wa.me/4915731622736">WhatsApp</a>
-        </li>
-        <li>
-          <a href="mailto:jonan.stein@web.de">jonan.stein@web.de</a>
-        </li>
-        <li>
-          <p>Discord: 0xjonan</p>
-        </li>
-      </ul>
-    </section>
-  </body>
+    <p>I've built great systems on AWS 👨‍💻</p>
+    <p>I can scale you to Heaven.</p>
+    <img src="passfoto.jpg" alt="Pass Foto" class="scaled-image">
+    <div class="links">
+      <a href="https://www.upwork.com/freelancers/~01cd821641d835ec7b">Upwork</a>
+      <a href="https://wa.me/4915731622736">WhatsApp</a>
+      <a href="mailto:jonan.stein@web.de">Email</a>
+      <a href="https://github.com/gittemo">GitHub</a>
+    </div>
+    <p>Ich spreche Deutsch + Englisch.</p>
+</body>
 </html>
